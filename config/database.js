@@ -22,6 +22,7 @@ module.exports = ({ env }) => {
               idleTimeoutMillis: 30000,
               createTimeoutMillis: 30000,
               acquireTimeoutMillis: 30000,
+              propagateCreateError: false,
             },
           },
         },
